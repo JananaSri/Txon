@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://kit.fontawesome.com/88b1e6d553.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="calculator.css">
+    
+</head>
+
+<body>
+   
+    <div class="calci">
+        <input type="text" class="displayscreen" id="displayScreen" placeholder=" ">
+        <button class="symbol" onclick="wipe()">clear</button>
+        <button class="number" onclick="show('(')">(</button>
+        <button class="number" onclick="show(')')">)</button>
+        <button class="symbol" onclick="show('%')">%</button>
+
+        <button class="number" onclick="show('7')">7</button>
+        <button class="number" onclick="show('8')">8</button>
+        <button class="number" onclick="show('9')">9</button>
+        <button class="symbol" onclick="show('*')">*</button>
+
+        <button class="number" onclick="show('4')">4</button>
+        <button class="number" onclick="show('5')">5</button>
+        <button class="number" onclick="show('6')">6</button>
+        <button class="symbol" onclick="show('/')">/</button>
+
+        <button class="number" onclick="show('1')">1</button>
+        <button class="number" onclick="show('2')">2</button>
+        <button class="number" onclick="show('3')">3</button>
+        <button class="symbol" onclick="show('+')">+</button>
+
+        <button class="symbol" onclick="show('.')">.</button>
+        <button class="number" onclick="show('0')">0</button>
+        <button class="symbol" onclick="show('-')">-</button>
+        <button class="symbol" onclick="calc('=')">enter</button>
+        <script type="text/javascript" src="calculator.js"></script>
+        
+    </div>
+    
+</body>
+
+</html>

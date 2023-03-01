@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.image {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png");
+    height: 50vh;
+    background-size: cover;
+}
+
+.card-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.padding {
+    padding: 15px;
+}
+
+.icons-container {
+    margin: 10px;
+    text-align: center;
+}
+
+.podcast-image {
+    height: 112px;
+    width: 114px;
+    margin-top: 20px;
+}
+
+.podcast-heading {
+    color: #151765;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.podcast-para {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.puri-bg {
+    background-color: #151765;
+    padding: 18px;
+    height: 170px;
+}
+
+.podcast-bg {
+    padding: 18px;
+}
+
+.name {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.podcast-title {
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.podcast-para1 {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.podcast-episode-container {
+    margin: 10px;
+}
+
+.podcast-text-container {
+    padding: 10px;
+}
+
+.podcast-name {
+    color: #151765;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.podcast-data {
+    color: #5a7184;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.podcast-time {
+    color: #151765;
+    font-family: "Roboto";
+    font-size: 10px;
+}
+
+.button-container {
+    margin: 20px;
+}
+
+.button {
+    color: white;
+    background-color: #151765;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 12px;
+    height: 24px;
+    width: 75px;
+    border-width: 0px;
+    text-align: center;
+}
